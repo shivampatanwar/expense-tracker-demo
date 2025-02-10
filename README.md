@@ -23,12 +23,15 @@ This is the frontend of the **Expense Tracker** application built using **React.
 ## ⚡ Getting Started
 
 - ### Install Dependencies
+    ```bash
     npm install
 
 - ### Set Up Environment Variables
+    ```bash
     VITE_API_URL=http://localhost:5000
 
 - ### Start the Development Server
+    ```bash
     npm run dev
 
 - ### 1️⃣ Clone the Repository
