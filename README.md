@@ -3,7 +3,7 @@
 This is the frontend of the **Expense Tracker** application built using **React.js**. The app allows users to sign up, log in, manage their expenses, and export them as a PDF.
 
 ## 🔗 Repository URL
-    [GitHub Repository](https://github.shivampatanwar.com/client) 
+    [Production URL](https://github.shivampatanwar.com/client) 
     
     
     *(Click the link above to open in a new tab.)*
