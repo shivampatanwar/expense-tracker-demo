@@ -2,6 +2,8 @@
 
 This is the frontend of the **Expense Tracker** application built using **React.js**. The app allows users to sign up, log in, manage their expenses, and export them as a PDF.
 
+## URL: https://github.com/
+
 ## 📌 Features
 - User registration and login
 - Add, view, and delete expenses
@@ -109,9 +111,10 @@ This is the **backend** of the **Expense Tracker** application. It is built usin
 ⚠️ **Note:** Use the **JWT Token** in the `Authorization` header for protected routes.
 
 
+
 ## MIT License
 
-    Copyright (c) 2024 Shivam Patanwar
+    Copyright (c) 2025 Shivam Patanwar
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
