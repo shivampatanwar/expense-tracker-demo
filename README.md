@@ -32,7 +32,6 @@ This is the frontend of the **Expense Tracker** application built using **React.
     npm run dev
 
 - ### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/shivampatanwar/expense-tracker-demo.git
-cd your-repo/client
+    ```bash
+    git clone https://github.com/shivampatanwar/expense-tracker-demo.git
+    cd your-repo/client
