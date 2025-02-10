@@ -9,6 +9,13 @@ This is the frontend of the **Expense Tracker** application built using **React.
 - 📌 **Note:** The server will respond **50 seconds** after the first request due to initial cold start delays.  
 
 
+## 📂 Client Folder Structure
+
+    The following structure represents the organization of the frontend (client) directory:
+
+
+
+
 
 ## 📌 Features
 - User registration and login
@@ -50,6 +57,12 @@ This is the frontend of the **Expense Tracker** application built using **React.
 # 🚀 Expense Tracker - Backend (Server)
 
 This is the **backend** of the **Expense Tracker** application. It is built using **Node.js, Express.js, Sequelize ORM, and MySQL**. The backend handles **user authentication, expense management, and database operations**.
+
+# 📂 Expense Tracker Server - Folder Structure
+
+The following structure represents the organization of the backend (server) directory:
+
+expense-tracker-server/ ├── config/ # Configuration files │ ├── db.js # Database connection setup │ ├── controllers/ # Controllers for handling requests │ ├── authController.js # Authentication logic (register, login) │ ├── expenseController.js # Expense CRUD operations │ ├── middleware/ # Middleware functions │ ├── authMiddleware.js # Authentication and authorization │ ├── errorMiddleware.js # Error handling │ ├── models/ # Sequelize models │ ├── User.js # User model schema │ ├── Expense.js # Expense model schema │ ├── routes/ # API route definitions │ ├── authRoutes.js # Authentication routes │ ├── expenseRoutes.js # Expense-related routes │ ├── .env # Environment variables ├── server.js # Main Express server entry point ├── package.json # Dependencies & scripts
 
 
 ## 📌 Features
