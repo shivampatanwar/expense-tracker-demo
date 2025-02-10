@@ -66,6 +66,9 @@ This is the **backend** of the **Expense Tracker** application. It is built usin
 - **bcrypt.js** (Password Hashing)
 - **dotenv** (Environment Variables)
 - **CORS** (Cross-Origin Resource Sharing)
+- **helmet** (Security Middleware)
+- **express-rate-limit** (Request Rate Limiting)
+
 
 ---
 
@@ -92,7 +95,6 @@ This is the **backend** of the **Expense Tracker** application. It is built usin
     ```bash
     git clone https://github.com/shivampatanwar/expense-tracker-demo.git
     cd expense-tracker-demo/server
-
 
 ## 🔌 API Endpoints
 
