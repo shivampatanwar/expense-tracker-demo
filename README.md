@@ -40,6 +40,8 @@ This is the frontend of the **Expense Tracker** application built using **React.
     cd expense-tracker-demo/client
 
 
+---
+---
 
 # 🚀 Expense Tracker - Backend (Server)
 
