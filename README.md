@@ -5,11 +5,8 @@ This is the frontend of the **Expense Tracker** application built using **React.
 ## 🔗 Production URL
     [Production URL](https://github.shivampatanwar.com/client)  
 
-    ---
-
-    *(Click the link above to open in a new tab.)*  
-
-    📌 **Note:** The server will respond **50 seconds** after the first request due to initial cold start delays.  
+- *(Click the link above to open in a new tab.)*  
+- 📌 **Note:** The server will respond **50 seconds** after the first request due to initial cold start delays.  
 
 
 
