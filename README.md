@@ -17,7 +17,6 @@ This is the frontend of the **Expense Tracker** application built using **React.
 - **React Router** for navigation
 - **Axios** for making API requests
 - **jsPDF & jsPDF-AutoTable** for PDF export
-- **Tailwind CSS** / Custom CSS for styling
 
 ---
 
@@ -35,5 +34,5 @@ This is the frontend of the **Expense Tracker** application built using **React.
 - ### 1️⃣ Clone the Repository
 
 ```bash
-    git clone https://github.com/shivampatanwar/expense-tracker-demo.git
-    cd your-repo/client
+git clone https://github.com/shivampatanwar/expense-tracker-demo.git
+cd your-repo/client
