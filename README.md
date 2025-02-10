@@ -9,12 +9,26 @@ This is the frontend of the **Expense Tracker** application built using **React.
 - 📌 **Note:** The server will respond **50 seconds** after the first request due to initial cold start delays.  
 
 
-## 📂 Client Folder Structure
+## 📂 Expense Tracker Client - Folder Structure
 
     The following structure represents the organization of the frontend (client) directory:
 
-
-
+    client/
+    ├── public/           
+    │   └── index.html     
+    ├── src/          
+    │   ├── components/   
+    │   │   ├── Expenses.jsx    
+    │   │   ├── Login.jsx        
+    │   │   └── Signup.jsx       
+    │   ├── api/           
+    │   │   └── api.js      
+    │   ├── styles/         
+    │   │   ├── App.css     
+    │   │   └── Expenses.css 
+    │   ├── App.jsx        
+    │   └── main.jsx
+    └── vite.config.js
 
 
 ## 📌 Features
