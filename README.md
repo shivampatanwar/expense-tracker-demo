@@ -92,3 +92,21 @@ This is the **backend** of the **Expense Tracker** application. It is built usin
     ```bash
     git clone https://github.com/shivampatanwar/expense-tracker-demo.git
     cd expense-tracker-demo/server
+
+
+## 🔌 API Endpoints
+
+- ### 🔐 Authentication
+    | Method | Endpoint             | Description             |
+    |--------|----------------------|-------------------------|
+    | `POST` | `/api/auth/register` | Register a new user    |
+    | `POST` | `/api/auth/login`    | Login user & get JWT   |
+
+- ### 💰 Expenses
+    | Method  | Endpoint            | Description                      |
+    |---------|---------------------|----------------------------------|
+    | `GET`   | `/api/expenses`     | Get all expenses (protected)    |
+    | `POST`  | `/api/expenses`     | Add a new expense (protected)   |
+    | `DELETE`| `/api/expenses/:id` | Delete an expense (protected)   |
+
+⚠️ **Note:** Use the **JWT Token** in the `Authorization` header for protected routes.
