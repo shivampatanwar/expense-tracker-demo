@@ -9,7 +9,7 @@ This is the frontend of the **Expense Tracker** application built using **React.
 - 📌 **Note:** The server will respond **50 seconds** after the first request due to initial cold start delays.  
 
 
-## 📂 Expense Tracker Client - Folder Structure
+### 📂 Expense Tracker Client - Folder Structure
 
     The following structure represents the organization of the frontend (client) directory:
 
@@ -72,7 +72,7 @@ This is the frontend of the **Expense Tracker** application built using **React.
 
 This is the **backend** of the **Expense Tracker** application. It is built using **Node.js, Express.js, Sequelize ORM, and MySQL**. The backend handles **user authentication, expense management, and database operations**.
 
-## 📂 Expense Tracker Server - Folder Structure
+### 📂 Expense Tracker Server - Folder Structure
 
     The following structure represents the organization of the backend (server) directory:
 
