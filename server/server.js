@@ -6,7 +6,6 @@ import rateLimit from "express-rate-limit";
 import sequelize from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
 import expenseRoutes from "./routes/expenseRoutes.js";
-import pdfRoutes from "./routes/pdfRoutes.js";
 import errorHandler from "./middlewares/errorMiddleware.js";
 
 dotenv.config();
@@ -21,7 +20,6 @@ app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 100 }));
 
 app.use("/api/auth", authRoutes);
 app.use("/api/expenses", expenseRoutes);
-app.use("/api/pdf", pdfRoutes);
 
 app.use(errorHandler);
 
