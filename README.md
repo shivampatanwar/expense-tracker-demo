@@ -55,7 +55,6 @@ This is the **backend** of the **Expense Tracker** application. It is built usin
 - **CRUD Operations** for Expenses
 - **MySQL Database** with Sequelize ORM
 - **Protected Routes** (JWT-based authorization)
-- **API Documentation** with Postman / Swagger
 - **Deployed to Render**
 
 ---
