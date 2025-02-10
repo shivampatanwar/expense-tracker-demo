@@ -34,7 +34,7 @@ This is the frontend of the **Expense Tracker** application built using **React.
     ```bash
     npm run dev
 
-- ### 1️⃣ Clone the Repository
+- ### Clone the Repository
     ```bash
     git clone https://github.com/shivampatanwar/expense-tracker-demo.git
     cd expense-tracker-demo/client
@@ -54,7 +54,7 @@ This is the **backend** of the **Expense Tracker** application. It is built usin
 - **MySQL Database** with Sequelize ORM
 - **Protected Routes** (JWT-based authorization)
 - **API Documentation** with Postman / Swagger
-- **Deployed to Render / Railway / Vercel**
+- **Deployed to Render**
 
 ---
 
@@ -88,8 +88,7 @@ This is the **backend** of the **Expense Tracker** application. It is built usin
     ```bash
     npm start
 
-
-### 1️⃣ Clone the Repository
+- ### Clone the Repository
     ```bash
     git clone https://github.com/shivampatanwar/expense-tracker-demo.git
     cd expense-tracker-demo/server
