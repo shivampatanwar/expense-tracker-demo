@@ -1,0 +1,332 @@
+/* Global Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: #24292e;
+}
+
+/* Main Container */
+.expenses-container {
+  /* max-width: 1200px; */
+  width: 90%;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header-container button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.expenses-header {
+  text-align: left;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.logout-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #dc3545;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+/* Expenses Body - Two Column Layout */
+.expenses-body {
+  display: flex;
+  gap: 50px;
+}
+
+/* Left Section (Form + Summary) */
+.left-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Right Section (Table) */
+.right-section {
+  flex: 2;
+  overflow-x: auto;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+input,
+select {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #0366d6;
+  box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.1);
+}
+
+/* Button Styling */
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #2ea44f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #2c974b;
+  transform: translateY(-2px);
+}
+
+/* Delete Button */
+button.delete {
+  background-color: #6c757d;
+}
+
+button.delete:hover {
+  background-color: #e63946;
+}
+
+/* Summary Box */
+.summary {
+  background: #f6f8fa;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th,
+td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+th {
+  background-color: #f6f8fa;
+  font-weight: 600;
+  color: #24292e;
+}
+
+tr:hover {
+  background-color: #f6f8fa;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  /* Tablets */
+  .expenses-body {
+    flex-direction: column;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Mobile */
+  .header-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .header-container button {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .expenses-header {
+    text-align: center;
+  }
+
+  .expenses-body {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .expenses-header {
+    font-size: 24px;
+  }
+
+  input,
+  select,
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .summary {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+
+
+
+
+/* ==== Form Container ==== */
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ==== Form Heading ==== */
+.form-container h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #1a1a1a;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* ==== Input Fields ==== */
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-container form input {
+  width: 90%;
+  padding: 12px;
+  border: 2px solid #eef0f2;
+  border-radius: 12px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: #f8fafc;
+}
+
+.form-container form input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+  background-color: #ffffff;
+}
+
+.form-container form input[type="email"],
+.form-container form input[type="password"] {
+  background-color: #f8fafc;
+}
+
+/* ==== Button Styling ==== */
+.form-container form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  margin-top: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.form-container form button:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.2);
+}
+
+.form-container form button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 10px rgba(37, 99, 235, 0.2);
+}
+
+.form-container form button:disabled {
+  background: linear-gradient(135deg, #94a3b8 0%, #64748b 100%);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* ==== Responsive Design ==== */
+@media (max-width: 480px) {
+  .form-container {
+    width: 92%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .form-container form input,
+  .form-container form button {
+    font-size: 15px;
+    padding: 14px;
+  }
+
+  .form-container h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+}
