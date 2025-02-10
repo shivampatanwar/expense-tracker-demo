@@ -16,7 +16,9 @@ The server application handles the backend logic and data storage. Key features 
 
 See the client and server directories for detailed setup instructions.
 
-## Contributing
+
+
+
 
 
 
