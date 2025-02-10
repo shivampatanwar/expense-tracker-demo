@@ -10,7 +10,6 @@ This is the frontend of the **Expense Tracker** application built using **React.
 - Responsive design for mobile and tablet
 - Protected routes (Dashboard accessible only after login)
 
----
 
 ## 🛠️ Technologies Used
 - **React.js** for UI
@@ -18,7 +17,6 @@ This is the frontend of the **Expense Tracker** application built using **React.
 - **Axios** for making API requests
 - **jsPDF & jsPDF-AutoTable** for PDF export
 
----
 
 ## ⚡ Getting Started
 
@@ -46,7 +44,6 @@ This is the frontend of the **Expense Tracker** application built using **React.
 
 This is the **backend** of the **Expense Tracker** application. It is built using **Node.js, Express.js, Sequelize ORM, and MySQL**. The backend handles **user authentication, expense management, and database operations**.
 
----
 
 ## 📌 Features
 
