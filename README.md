@@ -10,6 +10,7 @@ This is the frontend of the **Expense Tracker** application built using **React.
 📌 **Note:** The server will respond **50 seconds** after the first request due to initial cold start delays.  
 
 
+
 ## 📌 Features
 - User registration and login
 - Add, view, and delete expenses
