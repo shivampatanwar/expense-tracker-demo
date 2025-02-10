@@ -39,9 +39,8 @@ This is the frontend of the **Expense Tracker** application built using **React.
     git clone https://github.com/shivampatanwar/expense-tracker-demo.git
     cd expense-tracker-demo/client
 
+---
 
----
----
 
 # 🚀 Expense Tracker - Backend (Server)
 
