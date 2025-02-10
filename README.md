@@ -37,4 +37,59 @@ This is the frontend of the **Expense Tracker** application built using **React.
 - ### 1️⃣ Clone the Repository
     ```bash
     git clone https://github.com/shivampatanwar/expense-tracker-demo.git
-    cd your-repo/client
+    cd expense-tracker-demo/client
+
+
+
+# 🚀 Expense Tracker - Backend (Server)
+
+This is the **backend** of the **Expense Tracker** application. It is built using **Node.js, Express.js, Sequelize ORM, and MySQL**. The backend handles **user authentication, expense management, and database operations**.
+
+---
+
+## 📌 Features
+
+- **User Authentication** (Register, Login, JWT-based authentication)
+- **CRUD Operations** for Expenses
+- **MySQL Database** with Sequelize ORM
+- **Protected Routes** (JWT-based authorization)
+- **API Documentation** with Postman / Swagger
+- **Deployed to Render / Railway / Vercel**
+
+---
+
+## 🛠️ Technologies Used
+
+- **Node.js & Express.js** (Backend API)
+- **MySQL & Sequelize ORM** (Database)
+- **JWT (JSON Web Token)** (Authentication)
+- **bcrypt.js** (Password Hashing)
+- **dotenv** (Environment Variables)
+- **CORS** (Cross-Origin Resource Sharing)
+
+---
+
+## ⚡ Getting Started
+
+- ### Install Dependencies
+    ```bash
+    npm install
+
+- ### Set Up Environment Variables
+    ```bash
+    PORT=5000
+    DB_HOST=localhost
+    DB_USER=root
+    DB_PASSWORD=yourpassword
+    DB_NAME=expense_tracker
+    JWT_SECRET=your-secret-key
+
+- ### Start the Development Server
+    ```bash
+    npm start
+
+
+### 1️⃣ Clone the Repository
+    ```bash
+    git clone https://github.com/shivampatanwar/expense-tracker-demo.git
+    cd expense-tracker-demo/server
