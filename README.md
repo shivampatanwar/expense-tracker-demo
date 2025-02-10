@@ -60,9 +60,26 @@ This is the **backend** of the **Expense Tracker** application. It is built usin
 
 # 📂 Expense Tracker Server - Folder Structure
 
-The following structure represents the organization of the backend (server) directory:
+    The following structure represents the organization of the backend (server) directory:
 
-expense-tracker-server/ ├── config/ # Configuration files │ ├── db.js # Database connection setup │ ├── controllers/ # Controllers for handling requests │ ├── authController.js # Authentication logic (register, login) │ ├── expenseController.js # Expense CRUD operations │ ├── middleware/ # Middleware functions │ ├── authMiddleware.js # Authentication and authorization │ ├── errorMiddleware.js # Error handling │ ├── models/ # Sequelize models │ ├── User.js # User model schema │ ├── Expense.js # Expense model schema │ ├── routes/ # API route definitions │ ├── authRoutes.js # Authentication routes │ ├── expenseRoutes.js # Expense-related routes │ ├── .env # Environment variables ├── server.js # Main Express server entry point ├── package.json # Dependencies & scripts
+    expense-tracker-server/
+    ├── config/
+    │   ├── db.js
+    ├── controllers/
+    │   ├── authController.js
+    │   ├── expenseController.js
+    ├── middleware/
+    │   ├── authMiddleware.js
+    │   ├── errorMiddleware.js
+    ├── models/
+    │   ├── User.js
+    │   ├── Expense.js
+    ├── routes/
+    │   ├── authRoutes.js
+    │   ├── expenseRoutes.js
+    ├── .env
+    ├── server.js
+    ├── package.json
 
 
 ## 📌 Features
