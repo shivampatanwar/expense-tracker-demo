@@ -1,29 +1,41 @@
-## working on it.........
+# 🚀 Expense Tracker - Frontend (Client)
 
-## Client
-The client application provides a user interface for interacting with the server. Key features include:
+This is the frontend of the **Expense Tracker** application built using **React.js**. The app allows users to sign up, log in, manage their expenses, and export them as a PDF.
 
-## Server 
-The server application handles the backend logic and data storage. Key features include:
+## 📌 Features
+- User registration and login
+- Add, view, and delete expenses
+- Income, expenses, and balance summary
+- PDF export of expenses
+- Responsive design for mobile and tablet
+- Protected routes (Dashboard accessible only after login)
 
-## Getting Started
+---
 
-1. Clone the repository
-2. Install dependencies for both client and server
-3. Configure environment variables
-4. Run database migrations
-5. Start the development servers
+## 🛠️ Technologies Used
+- **React.js** for UI
+- **React Router** for navigation
+- **Axios** for making API requests
+- **jsPDF & jsPDF-AutoTable** for PDF export
+- **Tailwind CSS** / Custom CSS for styling
 
-See the client and server directories for detailed setup instructions.
+---
+
+## ⚡ Getting Started
+
+### Install Dependencies
+    npm install
+
+### Set Up Environment Variables
+    VITE_API_URL=http://localhost:5000
+
+### Start the Development Server
+    npm run dev
 
 
 
+### 1️⃣ Clone the Repository
 
-
-
-
-
-
-
-
-
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo/client
