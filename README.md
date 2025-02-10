@@ -84,11 +84,12 @@ This is the **backend** of the **Expense Tracker** application. It is built usin
 - ### Set Up Environment Variables
     ```bash
     PORT=5000
-    DB_HOST=localhost
-    DB_USER=root
-    DB_PASSWORD=yourpassword
-    DB_NAME=expense_tracker
-    JWT_SECRET=your-secret-key
+    DB_HOST=your-mysql-host
+    DB_USER=your-mysql-user
+    DB_PASSWORD=your-mysql-password
+    DB_NAME=your-database-name
+    JWT_SECRET=your-jwt-secret
+
 
 - ### Start the Development Server
     ```bash
